@@ -4,7 +4,7 @@ name: schedule greeting
 
 on:
   schedule:
-    - cron: "invalid-cron"
+    - cron: "0,5,10,15 * * * *"
 
 permissions:
   scm-token-own: read
